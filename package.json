@@ -1,0 +1,16 @@
+{
+  "name": "mcleben-belohnung-multiple",
+  "version": "1.0.0",
+  "description": "A Bot with multiple instances to cellect Belohnungen",
+  "main": "index.js",
+  "dependencies": {
+    "mclebenjoin": "^1.0.12",
+    "mineflayer": "^2.39.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Einstellen",
+  "license": "MIT"
+}
