@@ -4,7 +4,6 @@
   "description": "A Bot with multiple instances to cellect Belohnungen",
   "main": "index.js",
   "dependencies": {
-    "mclebenjoin": "^1.0.12",
     "mineflayer": "^2.39.0"
   },
   "devDependencies": {},
