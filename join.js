@@ -33,7 +33,7 @@ module.exports = async function (bot, options, cb) {
                 }
                 bot.lookAt(mob.position, true, () => {
                     setTimeout(() => {
-                        console.log("MclebenJoin: Bot clicked towards entity, hopefully hitting it!")
+                        console.log("Join: Bot clicked towards entity, hopefully hitting it!")
                         bot.activateEntity(mob)
                         cb()
                     }, 200)
