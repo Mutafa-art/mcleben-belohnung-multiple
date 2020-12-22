@@ -1,5 +1,5 @@
 const mineflayer = require('mineflayer');
-const mclebenjoin = require("mclebenjoin");
+const join = require("./join");
 
 const accounts = [
     {
@@ -31,7 +31,7 @@ async function process () {
                     var options = {
                         mob: "Creeper"
                     }  
-                    mclebenjoin(bot, options)
+                    join(bot, options)
                 } else {
                     setTimeout(() => {
                         bot.chat("/belohnung")
